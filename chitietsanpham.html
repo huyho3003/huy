@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="html.css">
+    <!--Link icon-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+    <style>
+        body{
+    padding: 0 ;
+    margin: 0 auto;
+}
+.cot{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+.sp{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.sp >img{
+    width: 600px;
+    height: 600px;
+}
+.sp .ten{
+    font-variant: small-caps;
+    color:black;
+    text-align: center;
+    font-size: large;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+.sp .gia{
+    text-align: center;
+    color:red;
+    font-size: large;
+    font-weight: bold;
+
+}
+.sp .gia del{
+    color: grey;
+}
+.sp .buy{
+    color: aqua;
+    font-size: 25px;
+}
+.sp .buy:hover{
+    background-color:red;
+}
+.h1{
+    background-size: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    color: brown;
+}
+.xem{
+    text-align: center;
+    font-variant: normal;
+}
+.xem:hover{
+    background-color: pink;
+}
+        .maytinh{
+            line-height: 35px;
+            font-size: 20px;
+            color:black;
+            padding-left: 700px;
+            padding-top: 80px;
+
+            
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} 
+
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background-color: #ededed;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    right: 250px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+.menu-logo nav a:hover{
+    color: black;
+    font-weight: bold;
+}
+.menu-logo .login i{
+    font-size: 30px;
+    width: 24px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 160px;
+    top: -5px;
+
+}
+.menu-logo .login a{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    text-decoration: none;
+    color: black;
+}
+.menu-logo .login a:hover{
+    color:red;
+    font-weight: bold;
+}
+.background{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    
+
+}
+.banner img{
+    max-width: 100%;
+    height: 20%;
+}
+.heading{
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0;
+}
+h3.heading{
+        margin: 0;
+        font-size: 22px;
+        background: #d7202c;
+        padding: 10px 20px;
+        color: #fff;
+        min-width: 100%;
+        line-height: 1.;
+        display: inline-block;
+}
+.product-item .gia{
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+.product-item .gia u{
+    font-weight: bold;
+    color: red;
+}
+.product-item .gia del{
+    font-weight: bold;
+    color: gray;
+}
+.product-item {
+    width: 22%;
+    float: left;
+    margin: 20px 20px;
+}
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+.product-item:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 20px 20px;
+    padding: 5px;
+}
+
+.free .new-item{
+    width: 22%;
+    margin: 20px 20px;
+    float: left;
+}
+    
+.free .new-item img{
+    max-width: 100%;
+}
+.new-item:hover{
+    box-shadow: 0 0 5px gray;
+    margin: 20px 20px;
+    padding: 5px;
+}
+.free .gia{
+    color:  red;
+}
+
+
+
+/*CSSc cho footer*/
+footer{
+    clear:both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+footer .footer-item{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer .footer-item h3{
+    margin: 30px 0 10px 30px;
+}
+footer .footer-item p{
+    margin: 10px 0 10px 30px;
+}
+
+.tacgia{
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.tacgia p{
+    padding-top: 10px;
+}
+.sp{
+    padding-top: 100px;
+}
+.box1{
+            border: 2px solid black;
+            width:200px;
+            height: 42px;
+            text-align: center;
+            font-size: 25px;
+            background-color:red;
+            color: black;
+            border-radius: 5px;
+        }
+
+        
+    </style>
+</head>
+<div id="top"></div>
+<header>
+    </div>
+    <div class="menu-logo">
+        <div class="logo">
+            <img src="images/LOGO GEARVN.png" alt="" width="100px">
+
+        </div>
+        <nav>
+            <a href="sanpham.html"><i class="fa-solid fa-house"></i> Trang Chủ</a>
+            <a href="laptop.html"><i class="fa-solid fa-laptop"></i> Laptop</a>
+            <a href="PCVANPHONG.html"><i class="fa-solid fa-desktop"></i> PC Văn Phòng</a>
+            <a href="sanpham3.html"><i class="fa-solid fa-gamepad"></i> Linh Kiện</a>
+            <a href="sanpham4.html"><i class="fa-solid fa-truck-fast"></i> Sản Phẩm Bán Chạy</a>
+            <a href="..//WEBBANMAYTINH.html"><i class="fa-solid fa-book"></i> Giới Thiệu</a>
+            <a href="about.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ Hàng</a>
+
+        </nav>
+
+
+        <div class="login">
+            <a href="login.html">
+                <i class="fa-solid fa-circle-user"></i> Đăng kí | Đăng nhập
+            </a>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div>
+        <div class="hinh">
+            <div class="cot">
+                <div class="sp">
+                    <img src="https://product.hstatic.net/1000026716/product/laptop_gaming_acer_nitro_5_eagle_an515_57_5669_a1581d79b72e45239cf8ffaad2c866f4.jpg" alt="">
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="maytinh">
+            <strong>Tên sản phẩm </strong>: LAPTOP ACER NITRO 5<br>
+            <strong>Thương hiệu </strong>: ACER <br>
+            <strong>Xuất xứ</strong>: TRUNG QUỐC <br>
+            <strong>Giá </strong>: 27.699.000 VND <br>
+            <strong>Chi tiết sản phẩm</strong>: <br>
+            <b style="color: red;"> Laptop Gaming Acer Nitro 5 Eagle AN515 57 5669 </b> <br>
+            <b>Thông tin chung:</b> <br>
+            <b>. Nhà sản xuất: </b> Acer Nitro 5 <br>
+            <b>. Bảo hành: </b> 12 tháng <br>
+            <b>. Tình trạng: </b> <strong>Mới </strong> <b style="color: red;">  100%</b> <br>
+            <u style="color: red;"> Khuyến mãi: </u> <br>
+            
+            <b>🎁 Balo Pradoter</b> <br>
+            <b>🎁 Chuột không dây Gaming 2tr677k</b> <br>
+
+          <br> <b style="color: red;" > Ưu đãi đặc biệt khi mua Laptop Gaming Acer:</b> <br>
+          <b style="color: blue;"> &emsp;  Mua kèm màn hình giảm sốc lên đên 49%</b> <br>
+          <b style="color: blue;"> &emsp;  Giảm 10% khi mua kèm PC Gaming tại Gear Máy Tính </b> <br>
+          <b style="color: blue;"> &emsp;  Hỗ trợ thanh toán tại các dịch vụ ATM / Ngân hàng / Momo </b> <br>
+          
+          <br><H1 class="box1"><b>Mua Hàng</b></H1>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
